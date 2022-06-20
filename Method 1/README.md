@@ -2,6 +2,6 @@ In this method, features are extracted using the `tsfresh` Python package. A com
 
 Model Results (to be updated here):
 * Random Forest - 92.06%
-* Support Vector Machine (SVM)
-* Logistic Regression
+* Support Vector Machine (SVM) - 90.48%
+* Logistic Regression - 88.89%
 * Ensemble Voting Classifier
