@@ -1,4 +1,6 @@
-data.csv
 Dataset
-labels.csv
 Method 1/features.csv
+test_labels.csv
+test.csv
+train_labels.csv
+train.csv
