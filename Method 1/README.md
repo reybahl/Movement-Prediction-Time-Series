@@ -4,4 +4,5 @@ Model Results (to be updated here):
 * Random Forest - 92.06%
 * Support Vector Machine (SVM) - 90.48%
 * Logistic Regression - 88.89%
+* XGBoost - 88.89%
 * Ensemble Voting Classifier
