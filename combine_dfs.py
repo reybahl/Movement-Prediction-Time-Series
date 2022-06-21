@@ -6,7 +6,7 @@ import pandas as pd
 
 from sklearn.model_selection import train_test_split
 
-data_path = 'Dataset' # enter dataset path from command line
+data_path = ' '.join(sys.argv[1:]) # enter dataset path from command line
 
 target_df = pd.read_csv(os.path.join(data_path, 'dataset', 'MovementAAL_target.csv'))
 
