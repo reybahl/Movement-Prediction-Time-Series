@@ -11,14 +11,15 @@ The dataset was collected and made available by researchers from the University 
 The dataset can be found in the UCI Machine Learning Repository using this [link](https://archive.ics.uci.edu/ml/datasets/Indoor+User+Movement+Prediction+from+RSS+data).
 
 ## Dataset structure
-For this task, the `dataset` directory contains all the necessary data. The `dataset` directory is organized as below:
+For this task, the `dataset` directory contains all the necessary data. The files are organized as below:
 
 ```
-dataset
-    MovementAAL_RSS_1.csv
-    MovementAAL_RSS_2.csv
-    ...
-    MovementAAL_target.csv
+Dataset (can be named anything you want ... specify THIS directory when running combine_dfs.py)
+    dataset
+        MovementAAL_RSS_1.csv
+        MovementAAL_RSS_2.csv
+        ...
+        MovementAAL_target.csv
 ```
 
 Each of the `MovementAAL_RSS_{id}` files represents a time series with measurements in chronological order and contains four columns representing the RSS measurements.
@@ -39,3 +40,23 @@ This splits the data into training and testing data and generates 4 files:
 * `test.csv` - contains the testing time series samples
 * `train_labels.csv` - contains the classification of each sample in train.csv
 * `test_labels.csv` - contains the classification of each sample in test.csv
+
+After running the program, this is how the files will be organized:
+
+```
+Dataset
+    dataset
+        MovementAAL_RSS_1.csv
+        MovementAAL_RSS_2.csv
+        ...
+        MovementAAL_target.csv
+        
+Method 1
+    ... code for method 1
+
+train_labels.csv
+train.csv
+test_labels.csv
+test.csv
+...
+```
