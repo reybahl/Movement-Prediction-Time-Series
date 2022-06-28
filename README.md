@@ -20,7 +20,7 @@ Run `combine_dfs.py` to aggregate all the time series samples. This program take
 `python combine_dfs.py Dataset`.
 
 This splits the data into training and testing data and generates 4 files:
-* train.csv - contains the training time series samples
-* test.csv - contains the testing time series samples
-* train_labels.csv - contains the classification of each sample in train.csv
-* test_labels.csv - contains the classification of each sample in test.csv
+* `train.csv` - contains the training time series samples
+* `test.csv` - contains the testing time series samples
+* `train_labels.csv` - contains the classification of each sample in train.csv
+* `test_labels.csv` - contains the classification of each sample in test.csv
