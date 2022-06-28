@@ -10,6 +10,21 @@ The dataset was collected and made available by researchers from the University 
 
 The dataset can be found in the UCI Machine Learning Repository using this [link](https://archive.ics.uci.edu/ml/datasets/Indoor+User+Movement+Prediction+from+RSS+data).
 
+## Dataset structure
+For this task, the `dataset` directory contains all the necessary data. The `dataset` directory is organized as below:
+
+```
+dataset
+    MovementAAL_RSS_1.csv
+    MovementAAL_RSS_2.csv
+    ...
+    MovementAAL_target.csv
+```
+
+Each of the `MovementAAL_RSS_{id}` files represents a time series with measurements in chronological order and contains four columns representing the RSS measurements.
+
+`MovementAAL_target.csv` contains the label for each of these time series. The target class 1 represents location changing movements, while -1 reprents location preserving movements. 
+
 # How to run the code
 Install the required libraries using the following command:
 
